@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-shopifyimgrepo-dev-160527-authRole",
+      "UnauthRoleArn": "arn:aws:iam::023107097433:role/amplify-shopifyimgrepo-dev-160527-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::023107097433:role/amplify-shopifyimgrepo-dev-160527-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-shopifyimgrepo-dev-160527-deployment",
+      "UnauthRoleName": "amplify-shopifyimgrepo-dev-160527-unauthRole",
+      "StackName": "amplify-shopifyimgrepo-dev-160527",
+      "StackId": "arn:aws:cloudformation:us-east-1:023107097433:stack/amplify-shopifyimgrepo-dev-160527/8ffc8600-583e-11eb-926b-0e7fefd377cd",
+      "AmplifyAppId": "d1plqkwnbsj6q8"
+    },
+    "categories": {
+      "auth": {
+        "shopifyimgrepo35e624ed": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+type S3Object {
+  bucket: String!
+  region: String!
+  key: String!
+}
+
+type Picture @model @auth(rules: [{ allow: owner }]) @searchable {
+  id: ID!
+  name: String
+  owner: String
+  labels: [String]
+  file: S3Object
+}
